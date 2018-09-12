@@ -20,7 +20,7 @@ Below is an outline of rudimentary installs required to run GHC demos on laptops
         * In the Ruby directory, `bundle install` in each app
             * Run `spec` in each ruby directory to see the tests
         * In the Javascript directory ‘npm install’ in each app
-            * Run `gulp test` in each javascript directory to see the tests
+            * Run `gulp jest` in each javascript directory to see the tests
         * In the java directory 
             * Run `gradle test` to see the tests for each app
         * In the Clojure directory
