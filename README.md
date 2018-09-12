@@ -8,6 +8,7 @@ Below is an outline of rudimentary installs required to run GHC demos on laptops
 1. [VSCode](https://code.visualstudio.com/download)
 1. [.NET Core 2.1 SDK](https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial)
 1. [Docker Community Edition](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+1. Open VSCode, enter `Ctrl + Shift + P`. Search for `Shell Command: Install ‘code’ command in PATH”` to add the `code` command to the shell.
 1. Run the following
    ```
    bash install.sh
