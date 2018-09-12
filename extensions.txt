@@ -1,0 +1,10 @@
+ms-vsliveshare.vsliveshare
+robertohuertasm.vscode-icons
+isudox.vscode-jetbrains-keybindings
+eamodio.gitlens
+coenraads.bracket-pair-colorizer
+sdras.night-owl
+rebornix.ruby
+mubaidr.vuejs-extension-pack
+avli.clojure
+peterjausovec.vscode-docker
