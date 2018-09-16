@@ -1,6 +1,9 @@
 #!/bin/bash -
-brew install nvm
 mkdir ~/.nvm
+brew install nvm
+#run the nvm setup commands 
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 nvm install --lts
 nvm use node
 if ! nvm run node --version; then

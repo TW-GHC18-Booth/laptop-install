@@ -19,19 +19,23 @@ Below is an outline of rudimentary installs required to run GHC demos on laptops
     * vue-morse-code: refer to `README`
     * console-morse-code-queens-attack
         * In the Ruby directory, `bundle install` in each app
-            * Run `spec` in each ruby directory to see the tests
-        * In the Javascript directory ‘npm install’ in each app
+            * Run `rspec` in each ruby directory to see the tests
+        * In the Javascript directory `npm install` in each app
             * Run `gulp jest` in each javascript directory to see the tests
         * In the java directory 
             * Run `gradle test` to see the tests for each app
         * In the Clojure directory
             * Run `lein test` to see the tests for each app
+        * In the netcore directory
+          * Run `dotnet restore` to install dependencies for each app
+          * Run `dotnet test` from the respective `app`.Tests directory to run the tests
     * testinvaders
         * run `brew install libpqxx`
         * run `bundle update`
         * run `rake db:migrate`
         * run `shotgun`
         * To run tests, run `rake jasmine:ci`
+        * Postgres isn't required locally but run `pg_ctl -D /usr/local/var/postgres start` to start it...
 
 
 ## Additions
